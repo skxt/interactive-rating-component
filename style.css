@@ -1,0 +1,79 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(216, 12%, 54%);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+}
+p {
+    font-size: 14px;
+    color: hsl(217, 12%, 63%);
+}
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.area {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+.box-configurator {
+    height: 400px;
+    width: 450px;
+    background-color: hsl(213, 19%, 18%);
+    margin: auto;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.box-configurator ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 0;
+}
+.box-configurator li {
+    margin: 0 10px;
+    padding: 14px 20px;
+    background-color: rgb(55, 55, 55);
+    border-radius: 50px;
+    cursor: pointer;
+}
+.box-configurator li:hover, .box-configurator li:focus, .box-configurator li:active {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.box-configurator li:nth-child(1){
+    margin-left: 0;
+}
+.box-configurator li:nth-last-child(1){
+    margin-right: 0;
+}
+button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin: 25px 0;
+    border-radius: 25px;
+    border: 0;
+    background-color: hsl(25, 97%, 53%);
+    color: aliceblue;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    background-color: hsl(25, 97%, 53%) !important;
+}
